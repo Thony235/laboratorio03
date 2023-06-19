@@ -1,23 +1,23 @@
-name: laboratorio
+name: lab03
 type: theme
 'base theme': olivero
 starterkit: true
 version: VERSION
 libraries:
-  - laboratorio/base
-  - laboratorio/messages
+  - lab03/base
+  - lab03/messages
   - core/normalize
 libraries-extend:
   user/drupal.user:
-    - laboratorio/user
+    - lab03/user
   core/drupal.dropbutton:
-    - laboratorio/dropbutton
+    - lab03/dropbutton
   core/drupal.dialog:
-    - laboratorio/dialog
+    - lab03/dialog
   file/drupal.file:
-    - laboratorio/file
+    - lab03/file
   core/drupal.progress:
-    - laboratorio/progress
+    - lab03/progress
 core_version_requirement: ^10
 generator: 'starterkit_theme:10.0.3'
 regions:
