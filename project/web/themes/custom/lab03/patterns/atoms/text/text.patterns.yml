@@ -1,0 +1,15 @@
+text:
+  label: 'Text'
+  description: 'Text component'
+  fields:
+    text:
+      type: string
+      label: Text
+      description: Text on card.
+      preview: 'Esto es un desastre' 
+  libraries:
+    -
+      text:
+        css:
+          component:
+            css/styles.css: {}

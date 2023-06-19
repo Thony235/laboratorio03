@@ -1,5 +1,7 @@
 .btn {
-    background-color: brown;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
     padding: 1em 2em;
     color: white;
     text-transform: uppercase;

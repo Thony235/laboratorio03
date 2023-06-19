@@ -6,3 +6,44 @@
 .node--unpublished {
   background-color: #fff4f4;
 }
+
+/* Estilos para las cartas */
+.display {
+  display: flex;
+}
+
+.colum-1 {
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.colum-2 {
+  width: 50%;
+}
+
+/* Estilos para el contenido de las cartas */
+.display-text {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  color: white;
+  padding-top: 1rem;
+}
+
+.colum-text {
+  flex: 0 0 auto;
+  width: 66.666667%;
+  max-width: 66.666667%;
+  padding-left: 3rem;
+  text-align: justify;
+}
+
+.colum-btn {
+  flex: 0 0 auto;
+  width: 33.333333%;
+  max-width: 33.333333%;
+  padding-top: 3rem;
+  margin-top: 0.25rem;
+  text-align: center;
+}
