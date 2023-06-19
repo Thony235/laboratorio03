@@ -13,7 +13,7 @@ entity_type: node
 bundle: page
 label: Components
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -23,6 +23,9 @@ settings:
     target_bundles: null
     negate: 0
     target_bundles_drag_drop:
+      contenido_en_dos_columnas:
+        weight: 3
+        enabled: false
       title_text_cta:
         weight: 2
         enabled: false
