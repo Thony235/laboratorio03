@@ -1,0 +1,193 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/node\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/type\/node\/page"
+        },
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/relation\/node\/page\/field_components": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ec1dc84b-e8b8-405f-ac77-e1cfd2f58835"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-06-19T16:26:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b53cf39c-6ff3-4832-b738-d300929910ab"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b53cf39c-6ff3-4832-b738-d300929910ab"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/relation\/node\/page\/field_components": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/type\/paragraph\/title_text_cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a26ee2fb-ff17-4cef-b155-b02d1a2fc806"
+                    }
+                ],
+                "target_revision_id": "7"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/type\/paragraph\/contenido_en_dos_columnas"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1e20d4e6-f147-49c5-90d1-c76826230c54"
+                    }
+                ],
+                "target_revision_id": "10"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Prueba de laboratorio 3",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-19T02:50:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-19T16:26:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie sagittis semper. Morbi egestas hendrerit tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec tincidunt ipsum facilisis augue venenatis, a dignissim dui convallis. Suspendisse auctor condimentum commodo. Vestibulum rhoncus tincidunt euismod. Suspendisse potenti. Quisque id augue id risus tincidunt blandit. Integer sit amet ligula ut leo laoreet commodo sit amet id dui. Nulla gravida interdum eros, sed malesuada odio. Sed sodales ac augue in ultricies. Phasellus interdum dui nec urna vestibulum, et condimentum leo varius. Nam massa risus, interdum sit amet eleifend vel, vestibulum vel leo.<\/p>",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie sagittis semper. Morbi egestas hendrerit tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec tincidunt ipsum facilisis augue venenatis, a dignissim dui convallis. Suspendisse auctor condimentum commodo. Vestibulum rhoncus tincidunt euismod. Suspendisse potenti. Quisque id augue id risus tincidunt blandit. Integer sit amet ligula ut leo laoreet commodo sit amet id dui. Nulla gravida interdum eros, sed malesuada odio. Sed sodales ac augue in ultricies. Phasellus interdum dui nec urna vestibulum, et condimentum leo varius. Nam massa risus, interdum sit amet eleifend vel, vestibulum vel leo.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
