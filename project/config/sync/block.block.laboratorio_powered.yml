@@ -1,0 +1,22 @@
+uuid: 769e6c1a-64b0-4303-8bd0-b02ac2cd57dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - laboratorio
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: laboratorio_powered
+theme: laboratorio
+region: footer_top
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

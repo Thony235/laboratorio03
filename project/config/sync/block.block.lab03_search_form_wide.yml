@@ -1,0 +1,23 @@
+uuid: 13ace755-9246-4c92-b761-0565ca9a38bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - lab03
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: lab03_search_form_wide
+theme: lab03
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

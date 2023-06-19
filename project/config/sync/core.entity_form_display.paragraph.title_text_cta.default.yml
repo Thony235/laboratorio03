@@ -1,0 +1,42 @@
+uuid: 5ae19be3-31da-4e10-9ee8-876803d158d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_text_cta.field_button_text
+    - field.field.paragraph.title_text_cta.field_color
+    - field.field.paragraph.title_text_cta.field_link
+    - paragraphs.paragraphs_type.title_text_cta
+  module:
+    - color_field
+    - link
+id: paragraph.title_text_cta.default
+targetEntityType: paragraph
+bundle: title_text_cta
+mode: default
+content:
+  field_button_text:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_color:
+    type: color_field_widget_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

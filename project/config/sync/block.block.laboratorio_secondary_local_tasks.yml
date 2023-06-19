@@ -1,0 +1,22 @@
+uuid: 45666214-0578-4f40-ad53-e6bdac68429f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - laboratorio
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: laboratorio_secondary_local_tasks
+theme: laboratorio
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

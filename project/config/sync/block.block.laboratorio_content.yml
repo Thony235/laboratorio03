@@ -1,0 +1,22 @@
+uuid: 7a8accf3-5e30-43c2-874a-135e1c8fa888
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - laboratorio
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: laboratorio_content
+theme: laboratorio
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

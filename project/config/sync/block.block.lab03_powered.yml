@@ -1,0 +1,22 @@
+uuid: 4201e032-a1cb-4af7-9d07-3c9ff9cc8f2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lab03
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: lab03_powered
+theme: lab03
+region: footer_top
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

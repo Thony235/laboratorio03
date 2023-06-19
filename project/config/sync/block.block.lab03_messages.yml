@@ -1,0 +1,22 @@
+uuid: cad0de9b-bc44-4a79-9a55-2cb76f8d027d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lab03
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: lab03_messages
+theme: lab03
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

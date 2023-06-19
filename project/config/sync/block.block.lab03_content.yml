@@ -1,0 +1,22 @@
+uuid: 0315eb4a-da72-4d30-a02d-e79087b306d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lab03
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: lab03_content
+theme: lab03
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

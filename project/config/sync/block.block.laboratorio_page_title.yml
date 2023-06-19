@@ -1,0 +1,20 @@
+uuid: a797b5b7-4610-4160-8e5f-7c6c1aacc040
+langcode: en
+status: true
+dependencies:
+  theme:
+    - laboratorio
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: laboratorio_page_title
+theme: laboratorio
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

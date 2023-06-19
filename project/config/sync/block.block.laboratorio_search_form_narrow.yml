@@ -1,0 +1,23 @@
+uuid: 4012c097-ce0c-4cfe-b302-c22da6d3715b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - laboratorio
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: laboratorio_search_form_narrow
+theme: laboratorio
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
