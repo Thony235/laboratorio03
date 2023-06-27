@@ -1,0 +1,32 @@
+uuid: 7f2629d0-8ac8-4f39-b5be-8a7b1da58f06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cta.field_button_style
+    - field.field.paragraph.cta.field_link_button
+    - paragraphs.paragraphs_type.cta
+  module:
+    - link
+id: paragraph.cta.default
+targetEntityType: paragraph
+bundle: cta
+mode: default
+content:
+  field_button_style:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_link_button:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

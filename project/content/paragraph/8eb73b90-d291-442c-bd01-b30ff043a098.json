@@ -4,7 +4,7 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us100.gitpod.io\/rest\/type\/paragraph\/title_text_cta"
+            "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/type\/paragraph\/title_text_cta"
         }
     },
     "id": [
@@ -71,24 +71,6 @@
         {
             "value": true,
             "lang": "en"
-        }
-    ],
-    "field_button_text": [
-        {
-            "value": "text1"
-        }
-    ],
-    "field_color": [
-        {
-            "color": "#C44B12",
-            "opacity": 1
-        }
-    ],
-    "field_link": [
-        {
-            "uri": "internal:\/home",
-            "title": "Como actualizar",
-            "options": []
         }
     ]
 }
