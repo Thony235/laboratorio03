@@ -1,17 +1,27 @@
-uuid: d522d4b5-6425-4b20-8ba8-69370762c1b3
+uuid: a396e1ae-0c82-4119-abaf-c8e0afbd4a50
 langcode: en
 status: true
 dependencies:
   module:
-    - color_field
+    - options
     - paragraphs
 id: paragraph.field_color
 field_name: field_color
 entity_type: paragraph
-type: color_field_type
+type: list_string
 settings:
-  format: '#HEXHEX'
-module: color_field
+  allowed_values:
+    -
+      value: default
+      label: 'Default display'
+    -
+      value: orange
+      label: 'Orange background'
+    -
+      value: blue
+      label: 'Blue background'
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true

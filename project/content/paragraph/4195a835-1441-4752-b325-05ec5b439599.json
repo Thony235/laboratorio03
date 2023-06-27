@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/type\/paragraph\/cta"
+        }
+    },
+    "id": [
+        {
+            "value": 35
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4195a835-1441-4752-b325-05ec5b439599"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cta"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-27T05:05:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "36"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_cta"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_button_style": [
+        {
+            "value": "outlined"
+        }
+    ],
+    "field_link_button": [
+        {
+            "uri": "internal:\/node",
+            "title": "Google",
+            "options": []
+        }
+    ]
+}

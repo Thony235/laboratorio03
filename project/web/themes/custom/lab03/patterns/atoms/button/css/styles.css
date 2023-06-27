@@ -14,3 +14,39 @@
     color: brown;
     border: 1px brown solid;
 }
+
+.btn--link {
+    background-color: transparent;
+    color: gray;
+}
+
+.btn--link:hover {
+    color: gray;
+    border: none;
+    text-decoration: underline;
+}
+
+.btn.btn--outlined {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 0;
+    color: #008081;
+}
+
+.card_title-text--orange .btn.btn--outlined,
+.card_title-text--blue .btn.btn--outlined {
+    color: white;
+}
+
+.card_title-text--orange .btn.btn--outlined:hover {
+    background-color: white;
+    border: #C44B12;
+    color: #C44B12;
+}
+
+
+.card_title-text--blue .btn.btn--outlined:hover {
+    background-color: white;
+    border: #154D61;
+    color: #154D61;
+}

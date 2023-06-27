@@ -12,12 +12,17 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
         }
     ],
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/automatic_updates": "^2.7",
         "drupal/color_field": "^3.0",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
@@ -45,7 +50,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "cweagans/composer-patches": true
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "secure-http": true
     },
     "extra": {
         "drupal-scaffold": {
@@ -55,7 +61,8 @@
             "file-mapping": {
                 "[web-root]/sites/development.services.yml": false
             }
-        },
+
+        },      
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
@@ -105,6 +112,7 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+        "composer-exit-on-patch-failure": true
     }
 }

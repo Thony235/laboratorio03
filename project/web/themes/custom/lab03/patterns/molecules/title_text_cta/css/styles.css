@@ -1,0 +1,35 @@
+.card.card_title-text {
+    padding: 1em;
+}
+
+.card.card_title-text--orange {
+    background-color: #C44B12;
+    color: white;
+}
+
+.card.card_title-text--blue {
+    background-color: #154D61;
+    color: white;
+}
+
+.card_title-text h5.card_title {
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.card_title-text--orange h5.card_title,
+.card_title-text--blue h5.card_title {
+    color: white;
+}
+
+.card_title-text .card_button {
+    padding: 2em 0;
+    text-align: right;
+}
+
+.card_title-text .card_button {
+    padding: 2em 0;
+    text-align: right;
+}
+
+

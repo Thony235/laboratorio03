@@ -1,0 +1,32 @@
+title_text_cta:
+  label: 'title, text, button'
+  description: 'Elements in card component'
+  variants: 
+    default:
+      label: Default
+    orange:
+      label: Orange background
+    blue: 
+      label: Blue background
+  fields:
+    title:
+      type: string
+      label: Title
+      description: Title on card.
+      preview: 'Preguntas de prueba' 
+    text:
+      type: string
+      label: Text
+      description: Text on card.
+      preview: 'Vestibulum convallis massa ac feugiat gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sollicitudin, erat pretium hendrerit molestie, erat tortor dapibus felis, et facilisis sem dolor quis nulla. Mauris ac consectetur risus. Interdum et malesuada fames ac ante ipsum primis in faucibus.' 
+    button:
+      type: mixed
+      label: Button
+      description: Button in card.
+      preview: <a href="#" class="btn btn--outline">See more</a>
+  libraries:
+    -
+      title_text_cta:
+        css:
+          component:
+            css/styles.css: {}

@@ -1,0 +1,30 @@
+uuid: a169d862-2793-447e-a445-d0cc7bd29b58
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_button_style
+field_name: field_button_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: default
+      label: 'Default button with green background'
+    -
+      value: link
+      label: 'Button with arrow icon'
+    -
+      value: outlined
+      label: 'Outlined button'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

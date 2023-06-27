@@ -48,22 +48,12 @@
 %}
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-  <div style="background-color: {{paragraph.field_color.0.value.color}};">
     {% block content %}
-    <div class="display-text">
-      <div class="colum-text">
-        {{ pattern('text', {
-          text: 'Hola',
-        }) }}
-      </div>
-      <div class="colum-btn">
-        {{ pattern('button', {
-          text: 'Hola',
-          url: '/node',
-        }) }}
-      </div>
-    </div>
-  </div>
+      {{ pattern('title_text_cta', {
+        title: content.field_title,
+        text: content.field_text,
+        button: content.field_cta
+      }, paragraph.field_color.0.value) }}
     {% endblock %}
   </div>
 {% endblock paragraph %}

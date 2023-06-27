@@ -1,0 +1,124 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/type\/paragraph\/layout_2_columns"
+        },
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/relation\/paragraph\/layout_2_columns\/field_left_content": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/relation\/paragraph\/layout_2_columns\/field_right_content": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 39
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e1ea9de6-89c0-4bc5-962a-a5dddc1779aa"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "layout_2_columns"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-27T05:05:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_components"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/relation\/paragraph\/layout_2_columns\/field_left_content": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/type\/paragraph\/title_text_cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "61f0cd69-d510-4236-8f5b-14f71a68ed1c"
+                    }
+                ],
+                "target_revision_id": "87"
+            }
+        ],
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/relation\/paragraph\/layout_2_columns\/field_right_content": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/type\/paragraph\/title_text_cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7c45ef94-38bf-4dc8-8bbb-41dbac06369b"
+                    }
+                ],
+                "target_revision_id": "89"
+            }
+        ]
+    }
+}

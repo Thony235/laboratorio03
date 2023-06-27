@@ -1,0 +1,110 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/type\/paragraph\/title_text_cta"
+        },
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/relation\/paragraph\/title_text_cta\/field_cta": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "aee4ff7a-ad52-44f2-a51c-8131417b15d3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "title_text_cta"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-27T03:56:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "17"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_columna_izquierda"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_color": [
+        {
+            "value": "orange"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/relation\/paragraph\/title_text_cta\/field_cta": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-thony353-lab03-1yuk7y948nm.ws-us101.gitpod.io\/rest\/type\/paragraph\/cta"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2c3dd7f7-a80a-4bc8-aa79-a8862d60f8cf"
+                    }
+                ],
+                "target_revision_id": "44"
+            }
+        ]
+    },
+    "field_text": [
+        {
+            "value": "oooooooooooooooooooo"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "oooooooooooooooooooo"
+        }
+    ]
+}
